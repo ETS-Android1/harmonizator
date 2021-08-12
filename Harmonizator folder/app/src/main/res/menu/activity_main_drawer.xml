@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_info"
+        android:title="@string/info"
+        android:onClick="info"/>
+    <item
+        android:id="@+id/nastavenia"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/nav_stupne"
+        android:title="@string/stupne"
+        android:onClick="spusti"/>
+    <item
+        android:id="@+id/nav_intervaly"
+        android:title="@string/intervaly"
+        android:onClick="spusti"/>
+    <item
+        android:id="@+id/nav_akordy"
+        android:title="@string/akordy"
+        android:onClick="spusti"/>
+    <item
+        android:id="@+id/nav_dur"
+        android:title="@string/hfunkciedur"
+        android:onClick="spusti"/>
+    <item
+        android:id="@+id/nav_mol"
+        android:title="@string/hfunkciemol"
+        android:onClick="spusti"/>
+    <item
+        android:id="@+id/nav_viac"
+        android:title="@string/more"
+        android:onClick="viac"/>
+</menu>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_intervaly">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:onClick="otazka"
+                app:icon="@drawable/abc_vector_test"
+                app:iconTint="#FFFFFF"
+                tools:ignore="OnClick" />
+
+            <View
+                android:id="@+id/space"
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:layout_weight="0.3" />
+
+            <TextView
+                android:id="@+id/titleLesson"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/intervaly"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="1/8"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zadanie"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center|top"
+            android:text="@string/task_int"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/img_int"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:alpha="0.8"
+            android:src="@drawable/int0" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:id="@+id/otvorDialog"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:onClick="opdialogint"
+            android:text="@string/important"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="#151515"
+            tools:ignore="OnClick" />
+
+        <LinearLayout
+            android:id="@+id/int_vrch"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/m2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/minor_second"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/v2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/major_second"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/m3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/minor_third"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/v3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/major_third"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/c4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/per_fourth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/zv4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/aug_fourth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/int_spodok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/zm5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/dim_fifth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/c5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/per_fifth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/m6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/minor_sixth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/v6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/major_sixth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/m7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/minor_seventh"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/v7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/major_seventh"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="22sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

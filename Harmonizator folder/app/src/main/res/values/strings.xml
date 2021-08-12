@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Harmonizator</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="info">Information</string>
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="stupne">1. Degrees</string>
+    <string name="intervaly">2. Intervals</string>
+    <string name="akordy">3. Chords</string>
+    <string name="hfunkciedur">4. H. f. in major keys</string>
+    <string name="hfunkciemol">5. H. f. in minor keys</string>
+
+    <string name="copyright" translatable="false">© Adam Baranec, 2020 - 2021</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="report_problem">Report a problem</string>
+    <string name="all_rights">All rights reserved.</string>
+    <string name="more">More...</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="carry_on_question">Would you like to continue?</string>
+    <string name="repeat">Repeat</string>
+    <string name="first">1st</string>
+    <string name="second">2nd</string>
+    <string name="third">3rd</string>
+    <string name="fourth">4th</string>
+    <string name="fifth">5th</string>
+    <string name="sixth">6th</string>
+    <string name="seventh">7th</string>
+    <string name="major_second">ma2</string>
+    <string name="minor_second">mi2</string>
+    <string name="major_third">ma3</string>
+    <string name="minor_third">mi3</string>
+    <string name="per_fourth">p4</string>
+    <string name="aug_fourth">aug4</string>
+    <string name="dim_fifth">dim5</string>
+    <string name="per_fifth">p5</string>
+    <string name="major_sixth">ma6</string>
+    <string name="minor_sixth">mi6</string>
+    <string name="major_seventh">ma7</string>
+    <string name="minor_seventh">mi7</string>
+    <string name="dur_kvint">root major</string>
+    <string name="dur_sext">1st inversion major</string>
+    <string name="dur_kvart">2nd inversion major</string>
+    <string name="mol_kvint">root minor</string>
+    <string name="mol_sext">1st inversion minor</string>
+    <string name="mol_kvart">2nd inversion minor</string>
+    <string name="tonic">tonic</string>
+    <string name="subd">subdominant</string>
+    <string name="dom">dominant</string>
+    <string name="dialogText">Because full names of the intervals cannot fit in the buttons, there are used shortcuts of them. E.g.: minor third - mi3 (for word major the shortcut mi and the interval is defined by the number).</string>
+    <string name="task_st">In what degree in this scale is the tone</string>
+    <string name="task_int">Identify the interval on the image.</string>
+    <string name="task_akd">What is the inversion of the chord?</string>
+    <string name="task_hdur">Identify the harmonic function in major keys.</string>
+    <string name="ok" translatable="false">Ok</string>
+    <string name="excell">Excellent!</string>
+    <string name="incor">Incorrect!</string>
+    <string name="note">Note</string>
+    <string name="important">Important! (click here)</string>
+    <string name="next">Next</string>
+    <string name="endLesson">Exit</string>
+    <string name="task_hmol">Identify the harmonic function in minor keys.</string>
+    <string name="end_free_version">You\'ve just completed all lessons from the free version. The Pro version is going to be prepared soon with more lessons.</string>
+    <string name="more_lessons">The other lessons will be in the Pro version, which is going to be prepared soon.</string>
+    <string name="question">Do you really want to end this lesson?</string>
+    <string name="st0" translatable="false">F?</string>
+    <string name="st1" translatable="false">E?</string>
+    <string name="st2">A flat?</string>
+    <string name="st3">F sharp?</string>
+    <string name="st4" translatable="false">D?</string>
+    <string name="st5" translatable="false">C?</string>
+    <string name="st6">B flat?</string>
+    <string name="st7">G sharp?</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="darkmode">"Dark mode "</string>
+    <string name="app_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

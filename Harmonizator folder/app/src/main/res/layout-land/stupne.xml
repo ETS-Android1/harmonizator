@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_stupne">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:onClick="otazka"
+                app:icon="@drawable/abc_vector_test"
+                app:iconTint="#FFFFFF"
+                tools:ignore="OnClick" />
+
+            <View
+                android:id="@+id/space"
+                android:layout_width="0sp"
+                android:layout_height="0sp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:id="@+id/titleLesson"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/stupne"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/counter"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="1/8"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/zadanie"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.2"
+            android:gravity="center|top"
+            android:text="@string/task_st"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/ton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:gravity="center"
+            android:text="@string/st0"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/img_st"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.5"
+            android:alpha="0.8"
+            android:src="@drawable/stupne0" />
+
+        <LinearLayout
+            android:id="@+id/stupne_vrch"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/st1"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/first"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/st2"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/second"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/st3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/third"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/st4"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/button"
+                android:onClick="vyhodnot"
+                android:text="@string/fourth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                app:rippleColor="#FFFFFF"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/stupne_spodok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/st5"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/fifth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/st6"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/sixth"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+            <Button
+                android:id="@+id/st7"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#302D2D"
+                android:onClick="vyhodnot"
+                android:text="@string/seventh"
+                android:textAllCaps="false"
+                android:textColor="@color/textulohy"
+                android:textSize="20sp"
+                app:backgroundTint="@color/white"
+                app:backgroundTintMode="multiply"
+                tools:ignore="OnClick" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
