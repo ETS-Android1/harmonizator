@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.harmonizator;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
+
+import com.example.helloworld.R;
 
 public class gratulaciaAkd extends DialogFragment {
     materialy mat = new materialy();
@@ -20,13 +22,14 @@ public class gratulaciaAkd extends DialogFragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 mat.poradielekcie = 2;
-                mat.intent = new Intent(getActivity(), new MainActivity().lekcie[mat.poradielekcie]);
+                mat.intent = new Intent(getActivity(), mat.lekcie[mat.poradielekcie]);
                 mat.poradielekcie++;
-                mat.intent.setClass(getContext(), new MainActivity().lekcie[mat.poradielekcie]);
+                mat.intent.setClass(getContext(), mat.lekcie[mat.poradielekcie]);
                 startActivity(mat.intent);
                 getActivity().finish();
             }
         });
+
 
         mat.builder.setNeutralButton(R.string.repeat, new DialogInterface.OnClickListener() {
             @Override

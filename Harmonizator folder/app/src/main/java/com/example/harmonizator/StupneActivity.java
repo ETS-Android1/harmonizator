@@ -8,6 +8,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.harmonizator.materialy;
+
 public class StupneActivity extends AppCompatActivity {
     spravneSt dialog = new spravneSt();
     gratulaciaSt gratulacia = new gratulaciaSt();

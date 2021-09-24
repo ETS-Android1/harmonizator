@@ -1,15 +1,15 @@
 package com.example.helloworld;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.fragment.app.DialogFragment;
+
+import com.example.harmonizator.materialy;
 
 public class spravneSt extends DialogFragment {
     public View view;

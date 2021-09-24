@@ -1,4 +1,4 @@
-package com.example.helloworld;
+package com.example.harmonizator;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -8,6 +8,12 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
+
+import com.example.helloworld.AkordyActivity;
+import com.example.helloworld.DurActivity;
+import com.example.helloworld.IntervalyActivity;
+import com.example.helloworld.MolActivity;
+import com.example.helloworld.StupneActivity;
 
 public class materialy {
     public Drawable one;
@@ -28,5 +34,7 @@ public class materialy {
   public ActionBar ab;
   public AlertDialog.Builder builder;
   public Intent intent;
+  public Class[] lekcie = {StupneActivity.class, IntervalyActivity.class, AkordyActivity.class,
+          DurActivity.class, MolActivity.class};
     public CharSequence[] order = {"1/8", "2/8", "3/8", "4/8", "5/8", "6/8", "7/8", "8/8"};
 }

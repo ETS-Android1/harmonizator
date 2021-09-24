@@ -1,15 +1,13 @@
-package com.example.helloworld;
+package com.example.harmonizator;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
@@ -17,6 +15,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.helloworld.R;
 import com.example.helloworld.R.id;
 import com.google.android.material.navigation.NavigationView;
 
@@ -39,38 +38,38 @@ public class MainActivity extends AppCompatActivity {
        navController = Navigation.findNavController(this, R.id.fragmentContainerView);
         NavigationUI.setupWithNavController(navigationView, navController);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfig);
-        mat.intent = new Intent(this, StupneActivity.class);
+        mat.intent = new Intent(this, com.example.helloworld.StupneActivity.class);
     }
 
     @SuppressLint("NonConstantResourceId")
     public void spusti(MenuItem item){
         switch (item.getItemId()) {
             case id.nav_stupne:
-                mat.intent.setClass(getApplicationContext(), StupneActivity.class);
+                mat.intent.setClass(getApplicationContext(), com.example.helloworld.StupneActivity.class);
                 startActivity(mat.intent);
                 finish();
         }
         switch (item.getItemId()) {
             case id.nav_intervaly:
-                mat.intent.setClass(getApplicationContext(), IntervalyActivity.class);
+                mat.intent.setClass(getApplicationContext(), com.example.helloworld.IntervalyActivity.class);
                 startActivity(mat.intent);
                 finish();
         }
         switch (item.getItemId()) {
             case id.nav_akordy:
-                mat.intent.setClass(getApplicationContext(), AkordyActivity.class);
+                mat.intent.setClass(getApplicationContext(), com.example.helloworld.AkordyActivity.class);
                 startActivity(mat.intent);
                 finish();
         }
         switch (item.getItemId()) {
             case id.nav_dur:
-                mat.intent.setClass(getApplicationContext(), DurActivity.class);
+                mat.intent.setClass(getApplicationContext(), com.example.helloworld.DurActivity.class);
                 startActivity(mat.intent);
                 finish();
         }
         switch (item.getItemId()) {
             case id.nav_mol:
-                mat.intent.setClass(getApplicationContext(), MolActivity.class);
+                mat.intent.setClass(getApplicationContext(), com.example.helloworld.MolActivity.class);
                 startActivity(mat.intent);
                 finish();
         }
@@ -78,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void viac(MenuItem item){
-        dialogViac dialog = new dialogViac();
+        com.example.helloworld.dialogViac dialog = new com.example.helloworld.dialogViac();
         dialog.show(getSupportFragmentManager(), "viac");
     }
 

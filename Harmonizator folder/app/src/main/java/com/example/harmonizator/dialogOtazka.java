@@ -9,6 +9,8 @@ import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 import androidx.navigation.NavController;
 
+import com.example.harmonizator.MainActivity;
+
 public class dialogOtazka extends DialogFragment {
 
     public NavController navController;

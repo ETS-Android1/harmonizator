@@ -1,12 +1,13 @@
 package com.example.helloworld;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.DialogFragment;
+
+import com.example.harmonizator.materialy;
 
 public class spravneAkd extends DialogFragment {
     public int poradie;

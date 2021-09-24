@@ -6,6 +6,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.harmonizator.materialy;
+
 public class MolActivity extends AppCompatActivity {
     materialy mat = new materialy();
     spravneMol dialog = new spravneMol();

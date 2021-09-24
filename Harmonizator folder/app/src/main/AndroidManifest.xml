@@ -12,7 +12,7 @@
         android:theme="@style/Theme.HelloWorld"
         android:debuggable="false"
         tools:ignore="HardcodedDebugMode">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.harmonizator.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

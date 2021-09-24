@@ -8,6 +8,9 @@ import android.os.Bundle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
+import com.example.harmonizator.MainActivity;
+import com.example.harmonizator.materialy;
+
 public class gratulaciaMol extends DialogFragment {
     materialy mat = new materialy();
 

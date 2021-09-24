@@ -6,6 +6,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.harmonizator.materialy;
+
 public class DurActivity extends AppCompatActivity {
     public int poradie;
    materialy mat = new materialy();

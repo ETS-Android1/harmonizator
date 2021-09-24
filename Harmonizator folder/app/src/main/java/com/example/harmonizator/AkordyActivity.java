@@ -6,6 +6,9 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.harmonizator.gratulaciaAkd;
+import com.example.harmonizator.materialy;
+
 public class AkordyActivity extends AppCompatActivity {
 materialy mat = new materialy();
 spravneAkd dialog = new spravneAkd();

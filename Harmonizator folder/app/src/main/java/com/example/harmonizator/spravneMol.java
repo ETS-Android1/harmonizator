@@ -7,6 +7,8 @@ import android.os.Bundle;
 
 import androidx.fragment.app.DialogFragment;
 
+import com.example.harmonizator.materialy;
+
 public class spravneMol extends DialogFragment {
     public int poradie;
     materialy mat = new materialy();
